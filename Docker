@@ -41,4 +41,13 @@ docker run -m 100 --cpu "0.1"
 docker ps 
 docker ps -all 
 
+## To get into the docker
 
+docker exec -ti WebServer bash
+
+## To write the html code 
+
+apt install nano 
+nano htdocs/html.index 
+
+## Then insert the code 
